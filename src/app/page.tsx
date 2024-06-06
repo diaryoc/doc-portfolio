@@ -1,4 +1,5 @@
 import Button from "@/components/tokens/button";
+import InputForm from "@/components/component/inputForm";
 
 export default function Home() {
     return (
@@ -9,6 +10,9 @@ export default function Home() {
         <Button typeName={"button"} className={"btn btn-info mr-3"} name={"Info"}/>
         <Button typeName={"button"} className={"btn btn-danger mr-3"} name={"Danger"}/>
         <Button typeName={"button"} className={"btn btn-warning mr-3"} name={"Warning"}/>
+        <InputForm labelName={"Email"} type={"text"} placeholder={"example@example.com"}/>
+
+
       </div>
     </main>
   );
