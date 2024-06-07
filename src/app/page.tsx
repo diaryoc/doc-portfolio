@@ -2,7 +2,29 @@ import Button from "@/components/tokens/button";
 import InputForm from "@/components/component/inputForm";
 
 export default function Home() {
-    return (
+  const dataItem = [
+    {
+      id:1,
+      name:"item 1",
+    },
+    {
+      id:2,
+      name:"item 2",
+    },
+    {
+      id: 3,
+      name: "item 3",
+    },
+    {
+      id:4,
+      name:"item 4",
+    },
+    {
+      id:5,
+      name:"item 5",
+    },
+  ]
+  return (
     <main>
       <div className={"p-6"}>
         <Button typeName={"button"} className={"btn btn-primary mr-3"} name={"Primary"}/>
