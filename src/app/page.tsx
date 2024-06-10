@@ -1,5 +1,6 @@
 import Button from "@/components/tokens/button";
 import InputForm from "@/components/component/inputForm";
+import ListComponent from "@/components/component/listComponent";
 
 export default function Home() {
   const dataItem = [
@@ -34,7 +35,7 @@ export default function Home() {
         <Button typeName={"button"} className={"btn btn-warning mr-3"} name={"Warning"}/>
         <InputForm labelName={"Email"} type={"text"} placeholder={"example@example.com"}/>
 
-
+        <ListComponent list={dataItem}/>
       </div>
     </main>
   );
