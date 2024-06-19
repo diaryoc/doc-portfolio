@@ -2,22 +2,22 @@ const navbar = [
     {
         id:1,
         name:"Hero",
-        link:"/"
+        link:"/hero"
     },
     {
         id:2,
         name:"About",
-        link:"/"
+        link:"/about"
     },
     {
         id:3,
         name:"Projects",
-        link:"/"
+        link:"/projects"
     },
     {
         id:4,
         name:"Contact Us",
-        link:"/"
+        link:"/contact"
     },
 ]
 
