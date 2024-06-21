@@ -44,16 +44,16 @@ export default function Navbar(){
             {/*mobile*/}
             {active && (
                 <div
-                    className="sidebar-active origin-left w-2/3 scale-x-0 fixed h-screen top-[73px] left-0 bg-white transition duration-500 ease-in-out"
+                    className="sidebar-active origin-left w-full scale-x-0 fixed h-screen top-[73px] left-0 bg-white transition duration-500 ease-in-out"
                     id="nav-menu">
                     <ul className="flex flex-col">
                         {dataNavbar.map((item, index) => (
                             <li className="mobile-hamburger-list group" key={index}>
                                 <Link href={item.link}
-                                      className={"group-hover:bg-accent group-hover:text-white"}>
+                                      className={"group-hover:bg-primary group-hover:text-white  justify-between"}>
                                     {item.name}
                                     <span
-                                        className={"group-hover:bg-accent group-hover:text-white group-hover:border-l-white"}>{`>`}</span>
+                                        className={"px-6 h-full w-fit border-l-2 group-hover:text-white group-hover:border-l-white"}>{`>`}</span>
                                 </Link>
                             </li>
                         ))}
