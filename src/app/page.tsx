@@ -1,6 +1,7 @@
 import Button from "@/components/tokens/button";
 import InputForm from "@/components/component/inputForm";
 import ListComponent from "@/components/component/listComponent";
+import HeroSection from "@/components/feature/heroSection";
 
 export default function Home() {
   const dataItem = [
@@ -27,6 +28,7 @@ export default function Home() {
   ]
   return (
     <main>
+      <HeroSection/>
       <div className={"p-6"}>
         <Button typeName={"button"} className={"btn btn-primary mr-3"} name={"Primary"}/>
         <Button typeName={"button"} className={"btn btn-success mr-3"} name={"Success"}/>
