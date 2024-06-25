@@ -3,6 +3,7 @@ import InputForm from "@/components/component/inputForm";
 import ListComponent from "@/components/component/listComponent";
 import HeroSection from "@/components/feature/heroSection";
 import ProfileSection from "@/components/feature/profileSection";
+import ProjectSection from "@/components/feature/projectSection";
 
 export default function Home() {
   const dataItem = [
@@ -31,6 +32,7 @@ export default function Home() {
     <main>
       <HeroSection/>
       <ProfileSection/>
+      <ProjectSection/>
       <div className={"p-6"}>
         <Button typeName={"button"} className={"btn btn-primary mr-3"} name={"Primary"}/>
         <Button typeName={"button"} className={"btn btn-success mr-3"} name={"Success"}/>
