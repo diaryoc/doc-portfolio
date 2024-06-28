@@ -5,6 +5,7 @@ import HeroSection from "@/components/feature/heroSection";
 import ProfileSection from "@/components/feature/profileSection";
 import ProjectSection from "@/components/feature/projectSection";
 import ClientSection from "@/components/feature/clientSection";
+import SocialMediaSection from "@/components/feature/sosmedSection";
 
 export default function Home() {
   const dataItem = [
@@ -33,6 +34,7 @@ export default function Home() {
     <main>
       <HeroSection/>
       <ProfileSection/>
+      <SocialMediaSection/>
       <ProjectSection/>
       <ClientSection/>
       <div className={"p-6"}>
