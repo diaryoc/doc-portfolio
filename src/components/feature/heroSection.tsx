@@ -6,7 +6,7 @@ export default function HeroSection(){
             <div>
                 <h1>Diary of Curiosity</h1>
                 <p>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem consequatur, delectus dolore eligendi, eos explicabo minima, necessitatibus nisi officia quos repellat sint veritatis. Amet atque culpa ipsam nihil quasi!</span>
+                    <span>keterangan dari inti diary of curiosity</span>
                 </p>
             </div>
             <div className={"rounded-xl"}>
