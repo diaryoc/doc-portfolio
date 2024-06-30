@@ -8,6 +8,7 @@ export default function HeroSection(){
                 <p>
                     <span>keterangan dari inti diary of curiosity</span>
                 </p>
+                <p>ini nanti tambahan keterangan</p>
             </div>
             <div className={"rounded-xl"}>
                 <Image
