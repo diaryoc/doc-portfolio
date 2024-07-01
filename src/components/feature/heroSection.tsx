@@ -10,13 +10,13 @@ export default function HeroSection(){
                 </p>
                 <p>ini nanti tambahan keterangan</p>
             </div>
-            <div className={"rounded-xl"}>
+            <div className={"rounded-2xl relative h-1/2"}>
                 <Image
                     src={"/assets/img/banner.jpg"}
                     alt={"banner"}
                     width={720}
                     height={720}
-                    className={"object- rounded-xl"}
+                    className={"object-cover rounded-2xl"}
                 />
             </div>
         </div>
