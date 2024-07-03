@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function HeroSection(){
     return(
         <div className={"w-full flex justify-between px-4 md:px-6 lg:px-8 xl:px-8 2xl:px-32"}>
-            <div>
-                <h1>Diary of Curiosity</h1>
+            <div className={"flex flex-col justify-center"}>
+                <h1 className={"font-bold text-primary text-2xl"}>Diary of Curiosity</h1>
                 <p>
                     <span>keterangan dari inti diary of curiosity</span>
                 </p>
