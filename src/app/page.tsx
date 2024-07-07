@@ -33,6 +33,9 @@ export default function Home() {
   return (
     <main>
       <HeroSection/>
+      <div className={"px-4 md:px-6 lg:px-8 xl:px-8 2xl:px-32 my-36"}>
+          <div className={"h-[2px] w-full bg-slate-200"}></div>
+      </div>
       <ProfileSection/>
       <SocialMediaSection/>
       <ProjectSection/>
