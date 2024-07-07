@@ -23,6 +23,13 @@ export default function ProfileSection(){
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda dicta fugiat harum labore nemo praesentium quaerat quisquam repellendus rerum tenetur, ullam ut! Autem eaque fuga incidunt nobis, odio possimus!
                     </p>
                 </div>
+                <div className={"mb-12"}>
+                    <h1 className={"text-2xl text-primary font-extrabold mb-3 capitalize"}>Information</h1>
+                    <div className={"w-16 h-[2px] bg-primary mb-3"}></div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam assumenda dicta fugiat harum labore nemo praesentium quaerat quisquam repellendus rerum tenetur, ullam ut! Autem eaque fuga incidunt nobis, odio possimus!
+                    </p>
+                </div>
             </div>
         </div>
     )
