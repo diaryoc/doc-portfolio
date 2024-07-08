@@ -37,8 +37,8 @@ export default function Home() {
           <div className={"h-[2px] w-full bg-slate-200"}></div>
       </div>
       <ProfileSection/>
-      <SocialMediaSection/>
       <ProjectSection/>
+      <SocialMediaSection/>
       <ClientSection/>
       <div className={"p-6"}>
         <Button typeName={"button"} className={"btn btn-primary mr-3"} name={"Primary"}/>
