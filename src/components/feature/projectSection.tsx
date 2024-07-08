@@ -25,10 +25,10 @@ export default function ProjectSection(){
                         </div>
                         <div
                             className="absolute max-w-60 bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
-                            <h1 className="font-serif text-2xl font-bold text-secondary shadow-inner shadow-ternary px-2 group-hover:text-primary">
+                            <h1 className="font-serif text-2xl font-bold text-primary shadow-inner shadow-slate-700 px-2 group-hover:text-slate-600">
                                 Project Name tes
                             </h1>
-                            <h1 className="text-sm font-light text-primary shadow-ternary shadow-inner px-2 truncate">
+                            <h1 className="text-sm font-light text-primary shadow-slate-700 shadow-inner px-2 truncate">
                                 Personal Portfolio Website tralalalalalalalalalalalalalalalalalal
                             </h1>
                         </div>
